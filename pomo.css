@@ -1,0 +1,95 @@
+.parent{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: red;
+}
+.whole{
+    display:flex;
+    flex-direction: column;
+    border-radius: 30px;
+    height:350px;
+    width:450px;
+    background-color:black;
+    
+}
+.buttons{
+    display:flex;
+    height:90px;
+}
+.focus{
+    cursor:pointer;
+    color:white;
+    height:40px;
+    border:2px solid black;
+    border-radius:10px;
+    width:70px;
+    position:relative;
+    top:40px;
+    left:50px;
+    background-color: red;
+}
+.shortbreak{
+    cursor:pointer;
+    color:azure;
+    height:40px;
+    border:2px solid black;
+    border-radius:10px;
+    width:90px;
+    position:relative;
+    top:40px;
+    left:105px;
+    background-color: grey;
+}
+.longbreak{
+    cursor:pointer;
+    color:azure;
+    height:40px;
+    border:2px solid black;
+    border-radius:10px;
+    width:fit-content;
+    position:relative;
+    top:40px;
+    left:160px;
+    background-color:grey;
+}
+#pomotimer{
+    color:white;
+    font-size:60px;
+
+}
+.time{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.startbutton{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+.startbutton .start{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 10px;
+    height:40px;
+    width:70px;
+}
+.startbutton .Reset{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 10px;
+    height:40px;
+    width:70px;
+}
+.startbutton .pause{
+    cursor:pointer;
+    border:2px solid black;
+    border-radius: 10px;
+    height:40px;
+    width:70px;
+}
